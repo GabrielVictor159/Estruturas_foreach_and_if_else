@@ -67,7 +67,7 @@ namespace Estruturas_forEach_and_if_else.model
             }
             NotaExame = (NotaExame / notas.Length);
 
-            NotaFinal = (NotaExame + (NotaExame * 0.0399m));
+            NotaFinal = (NotaExame + (NotaExame * 0.10m));
             decimal a = NotaFinal - NotaExame;
             CreditoExtra = $"({Math.Round(a, 2)} pts)";
         }
