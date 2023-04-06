@@ -1,0 +1,20 @@
+# Arquivos compilados
+*.dll
+*.exe
+*.pdb
+
+# Arquivos temporários e caches
+*.obj
+*.user
+*.suo
+*.cache
+*.tmp
+
+# Pastas geradas pelo Visual Studio
+bin/
+obj/
+.vs/
+
+# Arquivos de configuração do Visual Studio
+*.csproj.user
+*.sln.docstates
